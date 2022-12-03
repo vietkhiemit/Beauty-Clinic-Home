@@ -57,9 +57,9 @@ button {
   font-family: 'Poppins';
 }
 .container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   display: inline-block;
