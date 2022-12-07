@@ -105,6 +105,9 @@ button {
   filter: blur(54px);
   border-radius: inherit;
 }
+.button:hover {
+  background-color: #091156;
+}
 
 .boxed {
   max-width: 555px;

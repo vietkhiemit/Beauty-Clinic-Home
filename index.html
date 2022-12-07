@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
 </head>
 
 <body>
+    <img class="buble-header" src="./assets/img/animation.png" alt="background">
     <div class="wrapper">
-        <div class="animation">
-            <img src="./assets/img/animation.png" alt="" />
-        </div>
         <header class='header'>
             <div class="container">
                 <div class="header-container">
                     <img src="./assets/img/logo.png" alt="" />
                     <ul class='menu'>
                         <li class='menu-item'>
-                            <a href="/" class="menu-link">Home+</a>
+                            <a href="/" class="menu-link home-link">Home+</a>
                         </li>
                         <li class='menu-item'>
                             <a href="/" class="menu-link">About</a>
@@ -39,7 +38,7 @@
                             <a href="/" class="menu-link">Blog</a>
                         </li>
                         <li class="menu-item menu-item--auth">
-                            <a href="/" class='button button--outline '>Contact</a>
+                            <a href="/" class='button button--outline'>Contact</a>
                         </li>
                     </ul>
                     <div class="menu-toggle">
@@ -52,218 +51,221 @@
             </div>
         </header>
         <main>
-            <section class='hero'>
-                <div class="container">
-                    <div class="hero-container">
-                        <div class="hero-content">
-                            <h1 class='hero-heading'>Clinic & beauty consultant</h1>
-                            <p class='text hero-desc'>
-                                It is a long established fact that a reader will be
-                                by the readable content of a page.
-                            </p>
-                            <a href="#" class="button button--primary button--rounded">More Detail</a>
+            <section class="hero">
+                <div>
+                    <img class="frame-header" src="./assets/img/Frame1.png" alt="Frame">
+                    <div class="hero-content">
+                        <div class="hero-top">
+                            <h1 class="hero-heading">Clinic & beauty consultant</h1>
+                            <p class="text hero-desc">It is a long established fact that a reader will be by the
+                                readable content of a page</p>
                         </div>
-                    </div>
-                    <img src="assets/img/Frame1.png" alt="" class="hero-image" />
-                </div>
-            </section>
-            <div class="main-slider-button">
-                <div class="rectangle-left"></div>
-                <div class="rectangle-mid"></div>
-                <div class="rectangle-right"></div>
-            </div>
-            <section class='feature'>
-                <div class="container">
-                    <div class="feature-header">
-                        <p class='text feature-desc-top'>Main Services</p>
-                        <h1 class='feature-heading'>Learn services to focus
-                            on your beauty</h1>
-                        <p class='text feature-desc'>Porta rhoncus orci condimentum vitae lobortis eu dignissim non
-                            massa. Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</p>
-                    </div>
-                    <div class="feature-list">
-                        <div class="feature-item">
-                            <div class="feature-box box-left">
-                                <div class="feature-image">
-                                    <img src="assets/img/Animation1.png" alt="" />
-                                </div>
-                                <h3 class='feature-title'>Beauty consultation</h3>
-                                <span class='feature-desc-bot'>Non parturient amet, feugiat tellus sagittis,
-                                    scelerisque eget nulla turpis.</span>
-                            </div>
-                            <div class="feature-box box-mid">
-                                <div class="feature-image">
-                                    <img src="assets/img/Animation1.png" alt="" />
-                                </div>
-                                <h3 class='feature-title'>Beauty consultation</h3>
-                                <span class='feature-desc-bot'>Non parturient amet, feugiat tellus sagittis,
-                                    scelerisque eget nulla turpis.</span>
-                            </div>
-                            <div class="feature-box box-right">
-                                <div class="feature-image">
-                                    <img src="assets/img/Animation1.png" alt="" />
-                                </div>
-                                <h3 class='feature-title'>Beauty consultation</h3>
-                                <span class='feature-desc-bot'>Non parturient amet, feugiat tellus sagittis,
-                                    scelerisque eget nulla turpis.</span>
-                            </div>
-                            <div class="about-background">
-                                <img class="about-background1" src="./assets/img/Background_Bubble.png"
-                                    alt="background">
-                            </div>
+                        <div class="btn-more">
+                            More Details
                         </div>
                     </div>
                 </div>
+                <div class="hero-reactangle">
+                    <div class="rectangle-left"></div>
+                    <div class="rectangle-mid"></div>
+                    <div class="rectangle-right"></div>
+                </div>
             </section>
-            <section class="about">
-                <div class="container">
-                    <div class="about-list">
-                        <div class="about-heading">
-                            <p class="about-top">About Us</p>
-                            <div class="about-title">
-                                <h1>We are the best beauty clinic</h1>
-                            </div>
-                            <div class="about-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, quam suscipit purus
-                                    donec
-                                    amet. Egestas volutpat facilisi eu libero. Nunc, ipsum ornare mauris sit quam quis
-                                    enim.
-                                    Varius tellus in suspendisse placerat.
 
-                                    Id dui erat sed quam tellus in purus. Pellentesque congue fringilla cras tellus
-                                    enim.
-                                </p>
-                            </div>
-                            <div class="about-button">
-                                <button class="about-learn">Learn More</button>
-                                <button class="about-play">
-                                    <div class="about-icon"></div>
-                                    <p class="about-watch">Watch Video</p>
-                                </button>
-                            </div>
-                        </div>
-                        <img src="./assets/img/bg1.png" alt="" class="about-image">
+            <section class="feature-services">
+                <div class="feat-content">
+                    <p class="feat-services">Main Services</p>
+                    <h2 class="feat-heading">Learn services to focus on your beauty</h2>
+                    <p class="feat-desc">Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa.
+                        Non
+                        parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis. </p>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-box feature-box-left">
+                        <img class="feat-img" src="./assets/img/Animation1.png" alt="">
+                        <h3 class="feat-title">Beauty consultation</h3>
+                        <p class="feate-title-end">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                            nulla turpis.</p>
+                    </div>
+                    <div class="feature-box feature-box-mid">
+                        <img class="feat-img" src="./assets/img/Animation2.png" alt="">
+                        <h3 class="feat-title">Skin treatments</h3>
+                        <p class="feate-title-end">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                            nulla turpis.</p>
+                    </div>
+                    <div class="feature-box feature-box-right">
+                        <img class="feat-img" src="./assets/img/Animation3.png" alt="">
+                        <h3 class="feat-title">Beauty product</h3>
+                        <p class="feate-title-end">Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                            nulla turpis.</p>
                     </div>
                 </div>
             </section>
+
+            <section class="about-us">
+                <div class="about-container">
+                    <div class="about-title-desc">
+                        <div class="about-title-name">About us</div>
+                        <h1 class="about-title-content1">We are the best beauty clinic</h1>
+                        <div class="about-title-content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
+                            quam suscipit purus donec amet. Egestas volutpat facilisi eu libero. Nunc, ipsum ornare
+                            mauris
+                            sit quam quis enim. Varius tellus in suspendisse placerat.
+                            Id dui erat sed quam tellus in purus. Pellentesque congue fringilla cras tellus enim.
+                        </div>
+
+                        <div class="about-button-both">
+                            <button class="about-title-button">Learn More</button>
+                            <button class="about-play-button">
+                                <div class="play-button-icon"></div>
+                                <p class="play-button-content">Watch Video</p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <img class="about-image" src="./assets/img/bg1.png" alt="">
+                </div>
+                <img class="about-background" src="./assets/img/Background_Bubble.png" alt="background">
+            </section>
+
             <section class="professional">
-                <div class="container">
-                    <div class="pro-header">
-                        <p class="text pro-top">Professional Teams</p>
-                        <h1 class="pro-heading">The Professional expert</h1>
-                        <p class="text pro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
+                <div class="pro-header">
+                    <p class="pro-top">Professional Teams</p>
+                    <h1 class="text pro-heading">The Professional expert</h1>
+                    <p class="text pro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                        aliquam.</p>
+                </div>
+
+                <div class="professional-section-left">
+                    <img class="pro-img-left-right" src="./assets/img/unsplash_1.png" alt="">
+                    <p class="pro-title">Surgeon</p>
+                    <p class="pro-name">Briyan Nevalli</p>
+                    <p class="pro-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                    </p>
+                    <div class="pro-icons">
+                        <img class="pro-icon" src="./assets/img/Twitter (1).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Facebook (2).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Instagram (1).png" alt="">
                     </div>
-                    <div class="pro-list">
-                        <div class="pro-item ">
-                            <img src="./assets/img/unsplash_1.png" alt="" class="pro-img">
-                            <p class="pro-title">Surgeon</p>
-                            <span class="pro-customer">Briyan Nevalli</span>
-                            <p class="pro-desc_bot">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                                purus sit</p>
-                            <div class="pro-icon">
-                                <img src="./assets/img/Twitter (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Instagram (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Facebook (2).png" alt="" class="pro-icon-item">
-                            </div>
-                        </div>
-                        <div class="pro-item ">
-                            <img src="./assets/img/unsplash_2.png" alt="" class="pro-img">
-                            <p class="pro-title">Surgeon</p>
-                            <span class="pro-customer">Briyan Nevalli</span>
-                            <p class="pro-desc_bot">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                                aliquam,
-                                purus sit</p>
-                            <div class="pro-icon">
-                                <img src="./assets/img/Twitter (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Instagram (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Facebook (2).png" alt="" class="pro-icon-item">
-                            </div>
-                        </div>
-                        <div class="pro-item ">
-                            <img src="./assets/img/unsplash_3.png" alt="" class="pro-img">
-                            <p class="pro-title">Surgeon</p>
-                            <span class="pro-customer">Briyan Nevalli</span>
-                            <p class="pro-desc_bot">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-                                purus sit</p>
-                            <div class="pro-icon">
-                                <img src="./assets/img/Twitter (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Instagram (1).png" alt="" class="pro-icon-item">
-                                <img src="./assets/img/Facebook (2).png" alt="" class="pro-icon-item">
-                            </div>
-                        </div>
+                </div>
+
+                <div class="professional-section-mid">
+                    <img class="pro-img-mid" src="./assets/img/unsplash_2.png" alt="">
+                    <p class="pro-title-mid">Surgeon</p>
+                    <p class="pro-name-mid">Briyan Nevalli</p>
+                    <p class="pro-content-mid">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                        sit
+                    </p>
+                    <div class="pro-icons">
+                        <img class="pro-icon" src="./assets/img/Twitter (1).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Facebook (2).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Instagram (1).png" alt="">
+                    </div>
+                </div>
+
+                <div class="professional-section-right">
+                    <img class="pro-img-left-right" src="./assets/img/unsplash_3.png" alt="">
+                    <p class="pro-title">Surgeon</p>
+                    <p class="pro-name">Briyan Nevalli</p>
+                    <p class="pro-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit
+                    </p>
+                    <div class="pro-icons">
+                        <img class="pro-icon" src="./assets/img/Twitter (1).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Facebook (2).png" alt="">
+                        <img class="pro-icon" src="./assets/img/Instagram (1).png" alt="">
                     </div>
                 </div>
             </section>
-            <section class="contacts">
-                <div class="contact-animation">
-                    <img src="./assets/img/Background Bubble (2).png" alt="">
-                </div>
-                <div class="container">
-                    <div class="contact-list">
-                        <div class="contact-image">
-                            <img src="./assets/img/Contact Animations.png" alt="">
+            <section class="contact-us">
+                <img class="contact-background" src="./assets/img/Background Bubble (2).png" alt="contact background">
+                <div class="contact-hold">
+                    <div class="contact-animation">
+                        <img class="contact-animation-image" src="./assets/img/Contact Animations.png" alt="">
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-title">
+                            <p class="contact-us-name">Contact Us</p>
+                            <h2 class="contact-content1">Send your inquiry to our expert team</h2>
+                            <p class="contact-content2">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
                         </div>
+
                         <div class="contact-form">
-                            <div class="contact-header">
-                                <p class="text contact-desc-top">Contact Us</p>
-                                <h1 class="contact-heading">Send your inquiry to our expert team</h1>
-                                <p class="text contact-desc-bot">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
+                            <div class="contact-form-name">
+                                <input type="text" placeholder="First name">
+                                <input type="text" placeholder="Last name">
                             </div>
-                            <div class="contact-bottom">
-                                <div class="form-top">
-                                    <input type="text" class="firt-name" placeholder="First name">
-                                    <input type="text" class="last-name" placeholder="Last name">
-                                </div>
-                                <input type="text" class="contact-email" placeholder="Email address">
-                                <input type="text" class="contact-email" placeholder="Subject message">
-                                <textarea class="contact-form-inquiry" type="text"
-                                    placeholder="Your inquiry here"></textarea>
-                                <button class="btn-send">Send Message</button>
-                            </div>
+
+                            <input class="contact-form-email-message" type="text" placeholder="Email address">
+                            <input class="contact-form-email-message" type="text" placeholder="Subject message">
+
+                            <textarea class="contact-form-inquiry" type="text"
+                                placeholder="Your inquiry here"></textarea>
+                            <button class="contact-form-confirm">Send Message</button>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <img class="footer-background1" src="./assets/img/Footer BG.png" alt="background">
+            <img class="footer-background" src="./assets/img/Footer BG.png" alt="background">
             <div class="footer-container">
-                <div class="footer-sidebar1">
+                <div class="footer-top">
                     <div class="logo">
-                        <div class="header-icon">
-                            <div class="header-icon-1 "></div>
-                            <div class="header-icon-2"></div>
-                            <div class="header-icon-3"></div>
-                        </div>
                         <img src="./assets/img/Footer Logo.png" alt="">
                     </div>
 
-                    <div class="footer-sidebar1-content">Beautice is a Beauty Clinic WordPress Theme.</div>
-                    <div class="footer-sidebar1-address">Baker Steet 101, NY, United States.</div>
-                    <div class="footer-sidebar1-phone-email">
+                    <div class="footer-content">Beautice is a Beauty Clinic WordPress Theme.</div>
+                    <div class="footer-address">Baker Steet 101, NY, United States.</div>
+                    <div class="footer-phone-email">
                         <a class="phone" href="tell:+521 569 8966">+521 569 8966.</a>
                         <a class="email" href="mailto:mail@company.com">mail@company.com.</a>
                     </div>
                 </div>
-                <div class="footer-sidebar2">
-                    <div class="pages">Pages</div>
-                    <div class="item home"> Home</div>
-                    <div class="item About"> About</div>
-                    <div class="item Service"> Service</div>
-                    <div class="item gallery"> Gallery</div>
-                    <div class="item team"> Team</div>
+                <div class="footer-end">
+                    <ul>
+                        <li class="pages">
+                            <a href="">Pages</a>
+                        </li>
+                        <li class="item">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="item">
+                            <a href="">About</a>
+                        </li>
+                        <li class="item">
+                            <a href="">Service</a>
+                        </li>
+                        <li class="item">
+                            <a href="">Gallery</a>
+                        </li>
+                        <li class="item">
+                            <a href="">Team</a>
+                        </li>
+                    </ul>
+
                 </div>
-                <div class="footer-sidebar3">
-                    <div class="informations">Informations</div>
-                    <div class="item home">Terms & conditions</div>
-                    <div class="item About">Privacy policy</div>
-                    <div class="item Service">Blog</div>
-                    <div class="item gallery">Contact</div>
+                <div class="footer-info">
+                    <ul>
+                        <li class="informations">
+                            <a href="">Informations</a>
+                        </li>
+                        <li class="item home">
+                            <a href="">Terms & conditions</a>
+                        </li>
+                        <li class="item About">
+                            <a href="">Privacy policy</a>
+                        </li>
+                        <li class="item Service">
+                            <a href="">Blog</a>
+                        </li>
+                        <li class="item gallery">
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-            <img class="arrow-to-top" src="./assets/img/ToTop Button.png" alt="arrow">
-
+            <img id="myBtn" class="arrow-srcoll-top" src="./assets/img/ToTop Button.png" alt="arrow"
+                onclick="topFunction()">
             <div class="footer-bottom">
                 <div class="social-media">
                     <img src="./assets/img/facebook-f.svg" alt="">
@@ -276,6 +278,22 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
