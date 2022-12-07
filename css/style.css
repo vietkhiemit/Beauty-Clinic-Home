@@ -850,11 +850,12 @@
 
 .footer-background {
   position: absolute;
-  width: 1440px;
+  width: 1520px;
   height: 704.53px;
   left: 0px;
   top: 0;
   z-index: -1;
+  
 }
 
 
@@ -1040,7 +1041,7 @@ color: #FFFFFF;
 .footer::before {
   position: absolute;
   content: "";
-  width: 1440px;
+  width: 1519px;
   height: 125px;
   left: 0px;
   bottom: 0;
